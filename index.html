@@ -3,32 +3,203 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Your Page Title</title>
-  <meta name="description" content="A simple HTML template" />
-  <link rel="stylesheet" href="style.css" />
+  <title>Francis Albert Shen</title>
+  <style>
+    :root {
+      --bg: #fcfcfa;
+      --text: #1f1f1f;
+      --muted: #6b6b6b;
+      --line: #d8d8d8;
+      --hover: #ececec;
+      --maxw: 820px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Georgia, "Times New Roman", serif;
+      line-height: 1.75;
+    }
+
+    header {
+      width: 100%;
+      border-bottom: 1px solid var(--line);
+      padding: 1.1rem 0;
+    }
+
+    .topbar {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 0.95rem;
+      letter-spacing: 0.02em;
+    }
+
+    .topbar a {
+      color: var(--text);
+      text-decoration: none;
+      padding: 0.45rem 0.9rem;
+      border-radius: 999px;
+      transition: background-color 0.2s ease;
+    }
+
+    .topbar a:hover {
+      background: var(--hover);
+    }
+
+    main {
+      max-width: var(--maxw);
+      margin: 0 auto;
+      padding: 3rem 1.5rem 4rem;
+    }
+
+    .hero {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      margin-bottom: 2.5rem;
+    }
+
+    .photo {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      overflow: hidden;
+      border: 1px solid var(--line);
+      margin-bottom: 1.25rem;
+      background: #f2f2f2;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--muted);
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 0.9rem;
+    }
+
+    .photo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(2rem, 4vw, 2.8rem);
+      font-weight: normal;
+    }
+
+    .subtitle {
+      margin-top: 0.45rem;
+      color: var(--muted);
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 1rem;
+    }
+
+    .content {
+      font-size: 1.08rem;
+    }
+
+    .content p {
+      margin: 0 0 1.35rem 0;
+    }
+
+    .content a,
+    footer a {
+      color: inherit;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 2px;
+    }
+
+    footer {
+      max-width: var(--maxw);
+      margin: 0 auto;
+      padding: 0 1.5rem 2.5rem;
+      color: var(--muted);
+      font-size: 0.95rem;
+      border-top: 1px solid var(--line);
+    }
+
+    .footnote {
+      padding-top: 1rem;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.6;
+    }
+
+    @media (max-width: 640px) {
+      main {
+        padding-top: 2rem;
+      }
+
+      .topbar {
+        gap: 0.4rem;
+        flex-wrap: wrap;
+      }
+
+      .content {
+        font-size: 1rem;
+      }
+    }
+  </style>
 </head>
 <body>
   <header>
-    <h1>Francis Albert Shen</h1>
-    <nav>
-      <a href="#">Home</a>
-      <a href="#">CV</a>
-      <a href="mailto:francis.albert.shen@gmail.com">Contact</a>
+    <nav class="topbar" aria-label="Main navigation">
+      <a href="#cv">CV</a>
+      <a href="#contact">Contact</a>
     </nav>
   </header>
 
   <main>
-    <section>
-      <h2>Home</h2>
-      <p>I've studied History and Informartics...</p>
+    <section class="hero">
+      <div class="photo">
+        Photo
+      </div>
+      <h1>Francis Albert Shen</h1>
+      <div class="subtitle">Historian and Software Engineer</div>
+    </section>
+
+    <section class="content" aria-label="Self introduction">
+      <p>
+        Francis Albert Shen is an historian and software engineer. He attends the
+        <a href="https://www.washington.edu" target="_blank" rel="noreferrer">University of Washington</a>,
+        pursuing degrees in History and Informatics. He is associated with
+        <a href="https://history.washington.edu/honors-history" target="_blank" rel="noreferrer">Honors in History</a>,
+        the <a href="https://l4cch.github.io/lab-website/" target="_blank" rel="noreferrer">Lab for Computing Cultural Heritage</a>,
+        and the <a href="https://startup.ischool.uw.edu" target="_blank" rel="noreferrer">iStartup Lab</a>.
+      </p>
+
+      <p>
+        Albert is interested in twentieth-century American history: the Cold War and the United States in the world; the history of social science; and the history of computing and information technology.
+      </p>
+
+      <p>
+        He is developing a digitization, search, and recommendation system for non-born-digital materials, with a particular focus on historical newspapers. He plans to launch an AI-powered event calendar that retrieves, organizes, and recommends Registered Student Organization (RSO) events.
+      </p>
+
+      <p>
+        His thesis is titled <em>The Frontiersman: George E. Taylor and the Transnational Making of the Cold War Intellectual, 1905–1959.</em> He completed it under the supervision of Dr. Daniel Bessner and Dr. Matthew Mosca of the Departments of International Studies and History.
+      </p>
+
+      <p>
+        Beyond his scholarship and research, he previously attended Indian Springs School, enjoys the works of Thomas Pynchon, Neal Stephenson, and Nic Pizzolatto, and loves camping along the beaches of the Pacific Northwest.
+      </p>
     </section>
   </main>
 
   <footer>
-    <p>do clawdbot dream of parchment scrolls</p>
-    <p>&copy; 2026 F.A.S</p>
+    <div class="footnote" id="contact">
+      Contact: <a href="mailto:yshen32@uw.edu">yshen32@uw.edu</a><br />
+      GitHub: <a href="https://github.com/f-a-shen" target="_blank" rel="noreferrer">github.com/f-a-shen</a>
+    </div>
   </footer>
-
-  <script src="script.js"></script>
 </body>
 </html>
