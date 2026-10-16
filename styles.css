@@ -91,6 +91,40 @@ h1 {
   font-weight: normal;
 }
 
+.name {
+  display: inline-grid;
+  cursor: pointer;
+  outline: none;
+}
+
+.name span {
+  grid-area: 1 / 1;
+  transition: opacity 0.3s ease;
+}
+
+.name .english {
+  opacity: 1;
+}
+
+.name .chinese {
+  opacity: 0;
+}
+
+.name:hover .english,
+.name:focus-visible .english {
+  opacity: 0;
+}
+
+.name:hover .chinese,
+.name:focus-visible .chinese {
+  opacity: 1;
+}
+
+.name:focus-visible {
+  outline: 1px solid var(--text);
+  outline-offset: 0.2rem;
+}
+
 .subtitle {
   margin-top: 0.45rem;
   color: var(--muted);
