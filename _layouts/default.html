@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/styles.css' | relative_url }}" />
+</head>
+<body>
+  <header>
+    <nav class="topbar" aria-label="Main navigation">
+      <a href="{{ '/' | relative_url }}">Home</a>
+      <a href="{{ '/bio/' | relative_url }}">Bio</a>
+      <a href="{{ '/blog/' | relative_url }}"{% if page.section == 'blog' %} aria-current="page"{% endif %}>Blog</a>
+      <a href="{{ '/#cv' | relative_url }}">CV</a>
+      <a href="{{ '/#contact' | relative_url }}">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    {{ content }}
+  </main>
+</body>
+</html>

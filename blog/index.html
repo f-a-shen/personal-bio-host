@@ -1,27 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Blog | Francis Albert Shen</title>
-  <link rel="stylesheet" href="../styles.css" />
-</head>
-<body>
-  <header>
-    <nav class="topbar" aria-label="Main navigation">
-      <a href="../">Home</a>
-      <a href="../bio/">Bio</a>
-      <a href="./" aria-current="page">Blog</a>
-      <a href="../#cv">CV</a>
-      <a href="../#contact">Contact</a>
-    </nav>
-  </header>
+---
+layout: default
+title: Blog
+section: blog
+---
+<div class="page-header">
+  <h1>Blog</h1>
+</div>
 
-  <main>
-    <div class="page-header">
-      <h1>Blog</h1>
-    </div>
-    <p class="placeholder">Coming soon.</p>
-  </main>
-</body>
-</html>
+<ol class="post-list">
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
+    </li>
+  {% endfor %}
+</ol>

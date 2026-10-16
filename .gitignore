@@ -1,0 +1,10 @@
+.DS_Store
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.bundle/
+vendor/bundle/
+
+# Keep full-resolution originals locally; the site uses optimized copies.
+resource/shen_march_2026.JPG
+resource/shen_may_2026.JPG

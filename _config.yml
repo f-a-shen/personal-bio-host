@@ -1,0 +1,9 @@
+title: Francis Albert Shen
+url: https://francisalbertshen.com
+baseurl: ""
+timezone: America/Los_Angeles
+permalink: /blog/:title/
+markdown: kramdown
+exclude:
+  - resource/shen_march_2026.JPG
+  - resource/shen_may_2026.JPG
