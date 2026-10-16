@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bio | Francis Albert Shen</title>
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body>
+  <header>
+    <nav class="topbar" aria-label="Main navigation">
+      <a href="../">Home</a>
+      <a href="./" aria-current="page">Bio</a>
+      <a href="../blog/">Blog</a>
+      <a href="../#cv">CV</a>
+      <a href="../#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="page-header">
+      <h1>Bio</h1>
+    </div>
+
+    <section class="content" aria-label="Biography">
+      <p>
+        A bit about my background: I was born and raised in China but went to school in Birmingham, Alabama, which naturally brought me to history, particularly nineteenth- and twentieth-century American history. I wrote my thesis on Cold War (il)liberalism's impact on the origin of China and Asia-Pacific studies by tracing the life of UW professor George Edward Taylor, founder of the Jackson School.
+      </p>
+
+      <p>
+        My interest in Informatics started with an attempt to build an archive of my high school's student newspapers, products of a rare, radical progressive educational experiment that thrived in 1960s Civil Rights Alabama. That pulled me into archival practice, digitization pipelines, library tech stacks (with some complaints), and eventually hands-on work in branch operations at UW Libraries.
+      </p>
+
+      <p>
+        Along with my academic pursuits, I'm a “natural-born” DevOps. I'm an enthusiast of homelabs, self-hosted services (shoutout to r/selfhosted), FOSS, and all things computing that localize data, decentralize governance, and prioritize privacy.
+      </p>
+    </section>
+
+    <section class="carousel" aria-label="Bio photos" aria-roledescription="carousel" tabindex="0">
+      <div class="carousel-viewport">
+        <div class="carousel-track">
+          <figure class="carousel-slide" role="group" aria-roledescription="slide" aria-label="1 of 2">
+            <img src="../resource/shen_may_2026_web.jpg" alt="Francis sitting at a desk in the Engineering Library" />
+            <figcaption>At my desk in the Engineering Library.</figcaption>
+          </figure>
+
+          <figure class="carousel-slide" role="group" aria-roledescription="slide" aria-label="2 of 2" aria-hidden="true">
+            <img src="../resource/shen_march_2026_web.jpg" alt="Francis taking a selfie with the Siku Quanshu" loading="lazy" />
+            <figcaption>A selfie with the <em>Siku Quanshu</em>.</figcaption>
+          </figure>
+        </div>
+      </div>
+
+      <div class="carousel-controls">
+        <button class="carousel-button carousel-previous" type="button" aria-label="Previous photo">←</button>
+        <span class="carousel-status" aria-live="polite">1 / 2</span>
+        <button class="carousel-button carousel-next" type="button" aria-label="Next photo">→</button>
+      </div>
+      <p class="carousel-hint">Use the left and right arrow keys to browse.</p>
+    </section>
+  </main>
+
+  <script>
+    const carousel = document.querySelector(".carousel");
+    const track = carousel.querySelector(".carousel-track");
+    const slides = Array.from(carousel.querySelectorAll(".carousel-slide"));
+    const status = carousel.querySelector(".carousel-status");
+    let currentSlide = 0;
+
+    function showSlide(index) {
+      currentSlide = (index + slides.length) % slides.length;
+      track.style.transform = `translateX(-${currentSlide * 100}%)`;
+      slides.forEach((slide, slideIndex) => {
+        slide.setAttribute("aria-hidden", slideIndex !== currentSlide);
+      });
+      status.textContent = `${currentSlide + 1} / ${slides.length}`;
+    }
+
+    carousel.querySelector(".carousel-previous").addEventListener("click", () => {
+      showSlide(currentSlide - 1);
+    });
+
+    carousel.querySelector(".carousel-next").addEventListener("click", () => {
+      showSlide(currentSlide + 1);
+    });
+
+    carousel.addEventListener("keydown", (event) => {
+      if (event.key === "ArrowLeft" || event.key === "ArrowRight") {
+        event.preventDefault();
+        showSlide(currentSlide + (event.key === "ArrowLeft" ? -1 : 1));
+      }
+    });
+  </script>
+</body>
+</html>

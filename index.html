@@ -4,155 +4,13 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Francis Albert Shen</title>
-  <style>
-    :root {
-      --bg: #fcfcfa;
-      --text: #1f1f1f;
-      --muted: #6b6b6b;
-      --line: #d8d8d8;
-      --hover: #ececec;
-      --maxw: 820px;
-    }
-
-    * {
-      box-sizing: border-box;
-    }
-
-    body {
-      margin: 0;
-      background: var(--bg);
-      color: var(--text);
-      font-family: Georgia, "Times New Roman", serif;
-      line-height: 1.75;
-    }
-
-    header {
-      width: 100%;
-      border-bottom: 1px solid var(--line);
-      padding: 1.1rem 0;
-    }
-
-    .topbar {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      gap: 1rem;
-      font-family: Arial, Helvetica, sans-serif;
-      font-size: 0.95rem;
-      letter-spacing: 0.02em;
-    }
-
-    .topbar a {
-      color: var(--text);
-      text-decoration: none;
-      padding: 0.45rem 0.9rem;
-      border-radius: 999px;
-      transition: background-color 0.2s ease;
-    }
-
-    .topbar a:hover {
-      background: var(--hover);
-    }
-
-    main {
-      max-width: var(--maxw);
-      margin: 0 auto;
-      padding: 3rem 1.5rem 4rem;
-    }
-
-    .hero {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-      margin-bottom: 2.5rem;
-    }
-
-    .photo {
-      width: 180px;
-      height: 180px;
-      border-radius: 50%;
-      overflow: hidden;
-      border: 1px solid var(--line);
-      margin-bottom: 1.25rem;
-      background: #f2f2f2;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: var(--muted);
-      font-family: Arial, Helvetica, sans-serif;
-      font-size: 0.9rem;
-    }
-
-    .photo img {
-      width: 100%;
-      height: 100%;
-      object-fit: contain;
-      object-position: center;
-    }
-
-    h1 {
-      margin: 0;
-      font-size: clamp(2rem, 4vw, 2.8rem);
-      font-weight: normal;
-    }
-
-    .subtitle {
-      margin-top: 0.45rem;
-      color: var(--muted);
-      font-family: Arial, Helvetica, sans-serif;
-      font-size: 1rem;
-    }
-
-    .content {
-      font-size: 1.08rem;
-    }
-
-    .content p {
-      margin: 0 0 1.35rem 0;
-    }
-
-    .content a,
-    footer a {
-      color: inherit;
-      text-decoration-thickness: 1px;
-      text-underline-offset: 2px;
-    }
-
-    footer {
-      max-width: var(--maxw);
-      margin: 0 auto;
-      padding: 0 1.5rem 2.5rem;
-      color: var(--muted);
-      font-size: 0.95rem;
-      border-top: 1px solid var(--line);
-    }
-
-    .footnote {
-      padding-top: 1rem;
-      font-family: Arial, Helvetica, sans-serif;
-      line-height: 1.6;
-    }
-
-    @media (max-width: 640px) {
-      main {
-        padding-top: 2rem;
-      }
-
-      .topbar {
-        gap: 0.4rem;
-        flex-wrap: wrap;
-      }
-
-      .content {
-        font-size: 1rem;
-      }
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header>
     <nav class="topbar" aria-label="Main navigation">
+      <a href="bio/">Bio</a>
+      <a href="blog/">Blog</a>
       <a href="#cv">CV</a>
       <a href="#contact">Contact</a>
     </nav>
@@ -164,12 +22,12 @@
         <img src="resource/shen_april_2026.jpg" alt="shen in downtown seattle lune cafer"> 
       </div>
       <h1>Francis Albert Shen</h1>
-      <div class="subtitle">Historian and Software Engineer</div>
+      <div class="subtitle">Historian and Software Developer</div>
     </section>
 
     <section class="content" aria-label="Self introduction">
       <p>
-        Francis Albert Shen is an historian and software engineer. He attends the
+        Francis Albert Shen is an historian and software developer. He attends the
         <a href="https://www.washington.edu" target="_blank" rel="noreferrer">University of Washington</a>,
         pursuing degrees in History and Informatics. He is associated with
         <a href="https://history.washington.edu/honors-history" target="_blank" rel="noreferrer">Honors in History</a>,
