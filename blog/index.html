@@ -8,6 +8,19 @@ section: blog
 </div>
 
 <ol class="post-list">
+  {% for project in site.data.pinned_projects %}
+    <li class="project-row">
+      <div class="project-details">
+        {% if project.url and project.url != empty %}
+          <a class="project-title" href="{{ project.url | escape }}">{{ project.title | escape }}</a>
+        {% else %}
+          <span class="project-title">{{ project.title | escape }}</span>
+        {% endif %}
+        <span class="project-status">Pinned &middot; {{ project.status | escape }}</span>
+      </div>
+      <span class="project-progress">{{ project.progress | escape }}</span>
+    </li>
+  {% endfor %}
   {% for post in site.posts %}
     <li>
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>

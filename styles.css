@@ -181,6 +181,30 @@ footer a {
   text-underline-offset: 3px;
 }
 
+.project-details {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+}
+
+.post-list .project-title {
+  font-size: 1.15rem;
+  font-weight: bold;
+}
+
+.project-status {
+  color: var(--muted);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8rem;
+}
+
+.project-progress {
+  color: var(--muted);
+  font-family: monospace;
+  font-size: 0.9rem;
+  white-space: nowrap;
+}
+
 .post-list time,
 .post-header time {
   color: var(--muted);
@@ -316,6 +340,10 @@ footer {
   .post-list li {
     flex-direction: column;
     gap: 0.25rem;
+  }
+
+  .project-progress {
+    align-self: flex-start;
   }
 }
 
