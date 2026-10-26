@@ -8,7 +8,7 @@ section: blog
 
 I’ve always found this an interesting question to ask and to be asked, as somebody whose research combines humanistic inquiry and engineering solutions in proportions I’m still trying to understand. It has become a less abstract question now that I have graduate school applications to finish.
 
-I’ve attempted to frame my research passions within disciplinary boxes, only to find my list of candidates widening: history of ideas, intellectual history, science and technology studies, computational culture and heritage, human-centered design, computer-supported cooperative work, library and information science, archival studies, digital humanities, textual and digital studies, and human-computer interaction—you name one. The list keeps growing.
+I’ve attempted to frame my research passions within disciplinary boxes, only to find my list of candidates widening: history of ideas, intellectual history, science and technology studies, computational culture and heritage, human-centered design and engineering, computer-supported cooperative work, library and information science, archival studies, digital humanities, textual and digital studies, and human-computer interaction—you name one. The list keeps growing.
 
 I know that a discipline is not a method. But when I try to explain how I work, the question keeps becoming one of where I belong. The more I explore these overlapping, sometimes seemingly orthogonal categories, the harder it becomes to fit my passions and skills neatly within them.
 
@@ -30,7 +30,7 @@ After all, with all the exuberance and exhaustion they brought, I start to wonde
 
 <div class="story-break" aria-hidden="true"></div>
 
-Then there is a deadline, a bunch of boxes to click, a few names to mention, and a couple of thousand words to put down. How exactly do I frame myself in a way that is productive and clear, both to me as the applicant and to the people reviewing my application?
+Then there is a deadline, a bunch of boxes to click, a few names to mention, and a couple of hundred words to put down. How exactly do I frame myself in a way that is productive and clear, both to me as the applicant and to the people reviewing my application?
 
 “What’s my methodology?” I’ve developed an ad hoc way of sorting the possibilities: reading and theorizing; qualitative research, including interviews and field studies; sociobehavioral experiments; and research through designing and building engineering solutions. These categories like any category are flawed. Still, they give me somewhere to begin.
 
