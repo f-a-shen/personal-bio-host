@@ -56,7 +56,7 @@ I had been thinking about the evolution of digital methods and the labor involve
 
 As I remember it, Prof. L thought for a moment and said, “I believe the product of a history PhD is the historian themself.”
 
-And during another period when I was certain I did not want to become a history PhD, I asked Prof. HF, somewhat worried about staying connected (or with some audacity, staying relevant to the field): "what I would do if I lost my library privileges. Would I still be invited to conferences?"
+And during another period when I was certain I did not want to become a history PhD, I asked Prof. HF, somewhat worried about staying connected (or with some audacity, staying relevant to the field): "What I would do if I lost my library privileges. Would I still be invited to conferences?"
 
 It was during the upheaval over higher education funding in 2025. His answer, as I remember it, was: “Maybe all of those things--the conferences, the papers--will go away. But I believe what makes a good historian is their ability to keep reading and thinking.”
 
