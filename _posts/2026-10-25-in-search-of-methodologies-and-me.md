@@ -64,6 +64,6 @@ It was during the upheaval over higher education funding in 2025. His answer, as
 ---
 
 
-[^1]: The mid-century turn toward social science, with its demand for “scientific methods,” produced little more than half-baked, pseudoscientific "hot-takes" from historians seeking to justify history as a social science—a tendency that also shaped (or perhaps produced) political science and area studies; There is a bit of personal history in that, too: my thesis is basically *a Chinese living at what feels like the end of the American century, examining Pax Americana through the eyes of American Sinologists near its beginning.* They studied China---I study them.
+[^1]: The mid-century turn toward social science, with its demand for “scientific methods,” produced little more than half-baked, pseudoscientific "hot-takes" from historians seeking to justify history as a social science—a tendency that also shaped (or perhaps produced) political science and area studies; There is a bit of personal history in that, too: my thesis is basically *a Chinese living at what feels like the end of the American century, examining Pax Americana through the eyes of American Sinologists near its Cold War beginning.* 
 
 [^2]: I actually studied several textbooks provided by the Society of American Archivists, although I did not take the Certified Archivist exam, so I cannot put “, CA” after my name.

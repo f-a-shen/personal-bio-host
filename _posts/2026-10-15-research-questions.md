@@ -5,7 +5,7 @@ date: 2026-10-15
 section: blog
 ---
 1. How can computational methods help organize, represent, and retrieve non-web-native materials?
->By non-web-native materials, I refer to three overlapping categories at different levels:
+By non-web-native materials, I refer to three overlapping categories at different levels:
 - File formats: Materials not originally structured in web markup languages (e.g., HTML), such as PDFs, images, and other non-HTML files.
 - Forms of representation: Multi-format or multimodal digital artifacts, such as library and museum objects represented through combinations of images, text, metadata, and other contextual information.
 - Origins of materials: Non-born-digital materials that have been digitized, often with varying scan quality, page layouts, and degrees of machine readability.
