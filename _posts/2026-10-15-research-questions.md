@@ -3,6 +3,7 @@ layout: post
 title: Research Questions
 date: 2026-10-15
 section: blog
+post_type: article
 ---
 1. How can computational methods help organize, represent, and retrieve non-web-native materials?
 By non-web-native materials, I refer to three overlapping categories at different levels:

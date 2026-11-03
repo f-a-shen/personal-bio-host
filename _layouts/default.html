@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
   <link rel="stylesheet" href="{{ '/styles.css' | relative_url }}" />
+  {% if page.post_filter %}
+    <script src="{{ '/assets/js/post-filter.js' | relative_url }}"></script>
+  {% endif %}
 </head>
 <body>
   <header>

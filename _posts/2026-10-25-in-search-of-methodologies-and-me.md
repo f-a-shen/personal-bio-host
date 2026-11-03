@@ -3,6 +3,8 @@ layout: post
 title: In Search of Methodologies and Me
 date: 2026-10-25
 section: blog
+post_type: article
+# Fill in: article, note, response, or repost
 ---
 “What’s your method?”
 

@@ -2,9 +2,19 @@
 layout: default
 title: Blog
 section: blog
+post_filter: true
 ---
 <div class="page-header">
   <h1>Blog</h1>
+</div>
+
+<div class="post-filter">
+  <button class="post-filter-toggle" type="button" aria-pressed="true" data-post-filter-toggle hidden>
+    <span>Long posts only</span>
+    <span class="post-filter-switch" aria-hidden="true">
+      <span class="post-filter-switch-thumb"></span>
+    </span>
+  </button>
 </div>
 
 <ol class="post-list">
@@ -22,7 +32,8 @@ section: blog
     </li>
   {% endfor %}
   {% for post in site.posts %}
-    <li>
+    {% assign resolved_post_type = post.post_type | default: 'article' %}
+    <li class="post-item" data-post-type="{{ resolved_post_type | escape }}">
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
       <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
     </li>
