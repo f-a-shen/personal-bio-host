@@ -18,10 +18,11 @@ By non-web-native materials, I refer to three overlapping categories at differen
     <br>
 
     <br>
-3. What is the history of the Cold War information technology race, and what that might have to do with the FOSS (Free and Open-source Software) movement?
-- <mark>Amendment: To take a step back and examine the political economy and history of software, approaching FOSS through both the canonical Stallman–Raymond debate and FOSS as an ethos and a practice within particular fields, for example, Zotero and Omeka from the Roy Rosenzweig Center of George Mason University.</mark>[^note1]
+3. What is the history of the Cold War information technology race, and what that might have to do with the FOSS (Free and Open-source Software) movement?[^note1]
+- <mark>Amendment: To take a step back and examine the political economy and history of software, approaching FOSS through both the canonical Stallman–Raymond debate and FOSS as an ethos and a practice within particular fields, for example, Zotero and Omeka from the Roy Rosenzweig Center of George Mason University.</mark>[^note2]
 
 ---
 
 [^note]: I can make the case we probably should not, but I’d like to use this exaggeration as a thought experiment.
-[^note1]: See [Can History Be Open Source?](https://rrchnm.org/publications/can-history-be-open-source-wikipedia-and-the-future-of-the-past/)
+[^note1]: One of my inspirations comes from [The Cybernetics Moment  Or Why We Call Our Age the Information Age](https://www.press.jhu.edu/books/title/11282/cybernetics-moment?srsltid=AYCX9vKHU9M5DdTJ8xDPQFjsiTbCJZXrMyqYLeQAQ9bAwbciDKo8QAWY) by Ronald R. Kline.
+[^note2]: See [Can History Be Open Source?](https://rrchnm.org/publications/can-history-be-open-source-wikipedia-and-the-future-of-the-past/)
