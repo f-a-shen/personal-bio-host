@@ -14,7 +14,7 @@ By non-web-native materials, I refer to three overlapping categories at differen
 
     <br>
 2. How should we govern a “data commons”? Why, how, and if we should scrape (or archive) ALL THE INTERNET?[^note] And if we could establish some form of data commons, what kinds of search and recommendation systems should we build on top of it?
-- <mark>Amendment: Which layers of our digital information systems should serve as shared public infrastructure? How might a communally governed data foundation support an open ecosystem of search, recommendation, LLM applications, and interfaces? e.g. What can projects like OpenStreetMap, Common Crawl, or even the AT Protocol teach us about how to build better systems?</mark>
+- <mark>Amendment: Which layers of our digital information systems should serve as shared public infrastructure? How might a communally governed data foundation support an open ecosystem of search, recommendation, LLM applications (or rejections), and interfaces? e.g. What can projects like OpenStreetMap, Common Crawl, or even the AT Protocol teach us about how to build better systems?</mark>
     <br>
 
     <br>
